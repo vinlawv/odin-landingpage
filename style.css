@@ -1,0 +1,38 @@
+/*page font*/
+
+.font-style {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*navigation, hook, and footer background*/
+
+.dark-background {
+    background-color: #1F2937;
+}
+
+/*quote background*/
+
+.light-background {
+    background-color: #E5E7EB
+}
+
+
+/*call to action*/
+
+.blue-background {
+    background-color: #3882F6;
+}
+
+/*text colors*/
+
+.white {
+    color: #F9FAF8;
+}
+
+.light-grey {
+    color: #E5E7EB;
+}
+
+.black {
+    color: #1F2937;
+}
