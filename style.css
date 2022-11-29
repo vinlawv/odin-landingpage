@@ -1,7 +1,36 @@
+/*FLEXBOX*/
+
+div {
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*EVERYTHING BELOW HERE IS COLORS/TEXT STYLING*/
+
 /*page font*/
 
 .font-style {
     font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
 }
 
 /*navigation, hook, and footer background*/
@@ -35,4 +64,39 @@
 
 .black {
     color: #1F2937;
+}
+
+/*list style*/
+
+ul {
+    list-style-type: none;
+}
+
+/*font sizes*/
+
+.main-text {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.secondary-text {
+    font-size: 18px;
+}
+
+.logo-text {
+    font-size: 24px;
+}
+
+.info-text {
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.bold {
+    font-weight: 800;
 }
