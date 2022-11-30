@@ -1,52 +1,20 @@
-/*FLEXBOX*/
-
-div {
-    display: flex;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*EVERYTHING BELOW HERE IS COLORS/TEXT STYLING*/
-
-/*page font*/
+/*main style*/
 
 .font-style {
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
+    margin: 0;
 }
 
-/*navigation, hook, and footer background*/
+/*backgrounds*/
 
 .dark-background {
     background-color: #1F2937;
 }
 
-/*quote background*/
-
 .light-background {
     background-color: #E5E7EB
 }
-
-
-/*call to action*/
 
 .blue-background {
     background-color: #3882F6;
@@ -66,13 +34,7 @@ div {
     color: #1F2937;
 }
 
-/*list style*/
-
-ul {
-    list-style-type: none;
-}
-
-/*font sizes*/
+/*font sizes/styles*/
 
 .main-text {
     font-size: 48px;
@@ -90,13 +52,83 @@ ul {
 .info-text {
     font-size: 36px;
     font-weight: 800;
-}
-
-.quote-text {
-    font-size: 36px;
-    font-style: italic;
+    text-align: center;
+    margin: 30px;
 }
 
 .bold {
     font-weight: 800;
+}
+
+
+/*navigation*/
+
+.navigation {
+    display: flex;
+}
+
+/*navigation link list*/
+
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/*information FINISHED*/
+
+.infoflex {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    border: solid #3882F6;
+    border-width: 4px;
+    border-radius: 20%;
+    margin: auto;
+}
+
+.infotext {
+    text-align: center;
+    max-width: 170px;
+    margin: 20px;
+}
+
+/*quote FINISHED*/
+
+.quote-text {
+    display: flex;
+    flex-direction: column;
+    font-size: 36px;
+    font-style: italic;
+    padding: 120px;
+    flex-wrap: wrap;
+}
+
+.endquote {
+    text-align: right;
+    font-weight: 800;
+    font-size: 24px;
+}
+
+/*call to action*/
+
+.action {
+    display:
+}
+
+
+/*footer FINISHED*/
+
+.footer {
+    text-align: center;
+}
+
+.footertext {
+    padding: 30px 0px;
 }
