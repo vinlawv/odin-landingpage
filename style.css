@@ -81,6 +81,7 @@ ul {
 .infoflex {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 100px;
 }
 
@@ -118,10 +119,35 @@ ul {
 
 /*call to action*/
 
-.action {
-    display:
+.actiontext {
+
 }
 
+.action {
+    border: solid #3882F6;
+    border-radius: 10px;
+    border-width: 20px;
+    margin: 50px 100px;
+}
+
+.actionflex {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 20px 30px
+}
+
+.button {
+    color:#F9FAF8;
+    background-color: #3882F6;
+    font-size: 18px;
+    font-weight: 800;
+    padding: 3px 24px;
+    border: 2px solid #F9FAF8;
+    border-radius: 5px;
+    min-width: 200;
+    
+}
 
 /*footer FINISHED*/
 
