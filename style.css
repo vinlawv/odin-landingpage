@@ -46,6 +46,7 @@
 }
 
 .logo-text {
+    font-weight: 800;
     font-size: 24px;
 }
 
@@ -61,19 +62,52 @@
 }
 
 
-/*navigation*/
-
-.navigation {
-    display: flex;
-}
-
-/*navigation link list*/
+/*navigation FINISHED*/
 
 ul {
     display: flex;
     list-style-type: none;
     justify-content: space-between;
-    gap: 20px;
+    gap: 30px;
+}
+
+
+.naviflex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+}
+
+li:hover {
+    box-shadow: inset 200px 0 0 0 #003b8f;
+}
+
+/*header*/
+
+.headerflex {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 800px;
+}
+
+.headerinfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0px 100px;
+}
+
+.placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    min-width: 550px;
+    min-height: 300px;
+    margin: 70px 50px;
 }
 
 /*information FINISHED*/
@@ -82,12 +116,12 @@ ul {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 100px;
+    gap: 40px;
 }
 
 .box {
-    width: 150px;
-    height: 150px;
+    width: 170px;
+    height: 170px;
     border: solid #3882F6;
     border-width: 4px;
     border-radius: 20%;
@@ -119,10 +153,6 @@ ul {
 
 /*call to action*/
 
-.actiontext {
-
-}
-
 .action {
     border: solid #3882F6;
     border-radius: 10px;
@@ -133,7 +163,8 @@ ul {
 .actionflex {
     display: flex;
     justify-content: center;
-    gap: 100px;
+    align-content: center;
+    gap: 170px;
     padding: 20px 30px
 }
 
@@ -143,10 +174,20 @@ ul {
     font-size: 18px;
     font-weight: 800;
     padding: 3px 24px;
-    border: 2px solid #F9FAF8;
+    border: 3px solid #F9FAF8;
     border-radius: 5px;
-    min-width: 200;
-    
+    min-width: 200px;
+    min-height: 40px;
+}
+
+.button:hover {
+    box-shadow: inset 200px 0 0 0 #003b8f
+}
+
+.buttoncontainer {
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 /*footer FINISHED*/
